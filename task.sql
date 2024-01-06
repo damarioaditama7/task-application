@@ -44,7 +44,7 @@ CREATE TABLE `task` (
 --
 
 INSERT INTO `task` (`id`, `user_id`, `description`, `status`, `deadline`, `created_at`, `created_by`, `updated_at`, `updated_by`) VALUES
-('595c8009-0c17-44cd-b62e-b5a5e8e83ba0', '', 'test1', 'FINISHED', NULL, '2024-01-06', 'SYSTEM', '2024-01-06', 'SYSTEM'),
+('595c8009-0c17-44cd-b62e-b5a5e8e83ba0', '', 'test1', 'COMPLETED', NULL, '2024-01-06', 'SYSTEM', '2024-01-06', 'SYSTEM'),
 ('65358df3-de68-431f-9975-e0b790a094d5', NULL, 'test2', 'CREATED', '2024-01-10', '2024-01-06', 'SYSTEM', '2024-01-06', 'SYSTEM'),
 ('cd1fa8a6-12dc-4c24-994f-e86d8b8f4b4b', NULL, 'test1', 'COMPLETED', '2024-01-10', '2024-01-06', 'SYSTEM', '2024-01-06', 'SYSTEM'),
 ('e408b64d-c88e-492f-be74-a52ef9841829', '', 'test1', 'CREATED', NULL, '2024-01-06', 'SYSTEM', '2024-01-06', 'SYSTEM'),
